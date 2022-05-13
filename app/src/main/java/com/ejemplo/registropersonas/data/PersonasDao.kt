@@ -20,6 +20,7 @@ interface PersonasDao {
         FROM Personas
         WHERE personaId=:personaId        
     """)
+
     fun Buscar(personaId: Int): Flow<Person>
 
     @Query("""
