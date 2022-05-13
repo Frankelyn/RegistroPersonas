@@ -3,11 +3,8 @@ package com.ejemplo.registropersonas
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.lifecycle.lifecycleScope
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import com.ejemplo.registropersonas.databinding.ActivityMainBinding
-import com.ejemplo.registropersonas.model.Persona
 import com.ejemplo.registropersonas.viewmodel.PersonaViewModel
 import dagger.hilt.EntryPoint
 import dagger.hilt.android.AndroidEntryPoint

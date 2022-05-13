@@ -1,7 +1,7 @@
 package com.ejemplo.registropersonas.data
 
 import androidx.room.*
-import com.ejemplo.registropersonas.model.Persona
+import com.ejemplo.registropersonas.model.Person
 import kotlinx.coroutines.flow.Flow
 
 
@@ -9,10 +9,10 @@ import kotlinx.coroutines.flow.Flow
 interface PersonasDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun Insertar(persona: Persona)
+    suspend fun Insertar(persona: Person)
 
     @Delete
-    suspend fun Eliminar(persona: Persona)
+    suspend fun Eliminar(persona: Person)
 
 
     @Query("""
@@ -20,13 +20,13 @@ interface PersonasDao {
         FROM Personas
         WHERE personaId=:personaId        
     """)
-    fun Buscar(personaId: Int): Flow<Persona>
+    fun Buscar(personaId: Int): Flow<Person>
 
     @Query("""
         SELECT * 
         FROM Personas
         ORDER BY personaId    
     """)
-    fun GetLista(): Flow<List<Persona>>
+    fun GetLista(): Flow<List<Person>>
 
 }
