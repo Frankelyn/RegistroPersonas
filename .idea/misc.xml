@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/garci/Documents/RegistroPersonas/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/garci/Documents/RegistroPersonas/app/src/main/res/layout/lista_de_personas_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/garci/Documents/RegistroPersonas/app/src/main/res/layout/personas_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/garci/Documents/RegistroPersonas/app/src/main/res/layout/row_personas.xml" value="0.25" />
       </map>
     </option>
   </component>
