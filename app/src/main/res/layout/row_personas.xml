@@ -29,7 +29,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        tools:text="Ingeniero en Sistemas"
+        tools:text="Frankelyn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/inicioGuideLine"
         />
